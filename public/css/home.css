@@ -1,0 +1,297 @@
+/**** typeography ****/
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333950;
+  line-height: 48px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  color: #25293A;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+ p {
+  font-size: 16px;
+  color: #747B95;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+ }
+
+/**** typeography ****/
+
+
+/**** components ****/
+
+.hero-btn {
+  padding: 12px 40px;
+  background-color: #5175FF;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  line-height: 25.6px;
+  cursor: pointer;
+  box-shadow: 0 25px 25px -10px #3f5bc240;
+}
+
+.pricing-btn {
+  padding: 12px 40px;
+  background-color:#E4EAFF;
+  border-radius: 999px;
+  width: 31%;
+  color: #5175FF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 48px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pricing-btn-1 {
+  padding: 12px 40px;
+  background-color: #fff;
+  color: #5175FF;
+  width: 33%;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 48px;
+  text-decoration: none;
+}
+
+.pricing-btn-2 {
+  padding: 12px 40px;
+  background-color: #E4EAFF;
+  border-radius: 999px;
+  width: 31%;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 48px;
+  cursor: pointer;
+  text-decoration: none;
+  color:#5175FF;
+}
+
+
+
+/**** body ****/
+
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 92%;
+}
+
+body {
+  margin: 0;
+  background-image: url('/public/assets/home/bg-pattern-header.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 592px;
+  background-color: #FAFAFA;
+  position: absolute;
+  background-position-y: -222px;
+}
+
+/**** body ****/
+
+
+
+
+/**** header section ****/
+
+header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/**** header section ****/
+
+
+
+
+/**** hero section ****/
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 796px;
+}
+
+.hero-img {
+  width: 75%;
+}
+
+.hero-text-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-text-content > p {
+  width: 99%;
+}
+
+/**** hero section ****/
+
+
+
+/**** pricing section ****/
+
+.pricing-section {
+  background-color: #25293A;
+  height: 1217px;
+  background-image: url('/public/assets/home/bg-pattern-footer.svg');
+  background-size: 607px;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.pricing-cards {
+  position: relative;
+  bottom: 718px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+/*** tier-card-1 ***/
+
+.tier-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px 24px;
+  width: 80%;
+  box-shadow: 0 50px 50px -25px #4b5c9a3d;
+}
+
+.card-body-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-plan-text {
+  text-align: center;
+}
+
+.card-plan-text > h1 {
+  font-size: 56px;
+  margin: 16px 0 16px;
+}
+
+.card-plan-text > p {
+  font-weight: 400;
+  color: #25293A;
+  line-height: 25.6px;
+}
+
+.card-text-content {
+  margin: 16px 0px 0px;
+}
+
+/*** tier-card-1 ***/
+
+
+
+/*** tier-card-2 ***/
+
+.tier-card-1 {
+  padding: 48px 32px;
+  background-color: #5175FF;
+  border-radius: 12px;
+  width: 75%;
+  box-shadow:  0 50px 50px 0 #4b5c9a3d;
+}
+
+.card-body-content-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-plan-text-1 {
+  text-align: center;
+}
+
+.card-plan-text-1 > h1 {
+  color: #fff;
+  font-size: 56px;
+  margin: 16px 0px 16px;
+}
+
+.card-plan-text-1 > h4 {
+  color: #fff;
+}
+
+.card-plan-text-1 > p {
+  color: #fff;
+  margin: 0px 0px 48px;
+}
+
+.card-text-content-1 {
+  text-align: center;
+}
+
+.card-text-content-1 > p {
+  color: #fff;
+}
+
+/*** tier-card-2 ***/
+
+
+
+/*** tier-card-3 ***/
+
+.tier-card-2 {
+  padding: 40px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 80%;
+  box-shadow: 0 50px 50px -25px #4b5c9a3d;
+}
+
+.card-body-content-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-plan-text-2 {
+  text-align: center;
+}
+
+.card-plan-text-2 > h1 {
+  font-size: 56px;
+  margin: 16px 0px 16px;
+}
+
+.card-plan-text-2 > p {
+  margin: 0px 0px 48px;
+}
+
+/*** tier-card-3 ***/
+
+
+
