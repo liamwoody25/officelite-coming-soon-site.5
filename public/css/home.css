@@ -63,6 +63,11 @@ h4 {
   text-decoration: none;
 }
 
+.pricing-btn:hover {
+  background-color: #5175FF;
+  color: #fff;
+}
+
 .pricing-btn-1 {
   padding: 12px 40px;
   background-color: #fff;
@@ -74,6 +79,10 @@ h4 {
   cursor: pointer;
   margin-top: 48px;
   text-decoration: none;
+}
+
+.pricing-btn-1:hover {
+  opacity: 0.8;
 }
 
 .pricing-btn-2 {
@@ -88,6 +97,8 @@ h4 {
   text-decoration: none;
   color:#5175FF;
 }
+
+
 
 .countdown-btn {
   padding: 12px 40px;
@@ -320,6 +331,12 @@ header {
   justify-content: center;
 }
 
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .countdown-container > p {
   font-size: 16px;
   font-weight: 700;
@@ -453,17 +470,20 @@ header {
 
 
 
+
   /**** pricing section ****/
 
   .pricing-section {
     height: 986px;
     margin-top: 80px;
+    background-size: 793px;
+    background-image: url('/public/assets/home/bg-pattern-footer.svg');
   }
 
 
   .pricing-cards {
     position: absolute;
-    bottom: 289px;
+    bottom: 120px;
   }
 
 
@@ -494,6 +514,7 @@ header {
   }
 
   /*** tier-card-1 ***/
+
 
 
 
@@ -534,6 +555,7 @@ header {
 
 
 
+
   /*** tier-card-3 ***/
 
   .tier-card-2 {
@@ -561,6 +583,280 @@ header {
   .card-plan-text-2 > p {
     margin-bottom: 24px;
   }
+
+  /*** tier-card-3 ***/
+
+
+
+   /*** countdown section ***/
+
+   .countdown-section {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .countdown-container {
+    width: 90%;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+   .countdown-timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .timer-card {
+    padding: 16px 12px;
+   }
+
+   .timer-card > h1 {
+    font-size: 56px;
+   }
+
+   /*** countdown section ***/
 }
+
+
+
+/*** media queries desktop ***/
+
+@media screen and (min-width:1440px) {
+
+
+  /**** typeography ****/
+
+  h1 {
+    font-size: 56px;
+    line-height: 67.2px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+   /**** typeography ****/
+
+
+
+  /**** components ****/
+
+  .pricing-btn,
+  .pricing-btn-2,
+  .pricing-btn-1  {
+    width: 30%;
+  }
+
+  .countdown-btn {
+    width: 17%;
+  }
+
+  /**** body ****/
+
+  .container {
+    margin-left: 125px;
+    margin-right: 125px;
+    width: 83%;
+  }
+
+  body {
+    background-image: url('/public/assets/home/bg-pattern-header.svg');
+    background-position-x: 826px;
+    background-size: 983px;
+    background-position-y: -346px;
+  }
+
+  /**** body ****/
+
+
+
+  /**** header section ****/
+  
+  header {
+    margin-top: 80px;
+  }
+
+  /**** header sectiom ****/
+
+
+
+   /**** header sectiom ****/
+
+   .hero-section {
+    padding-bottom: 150px;
+    background-size: 523px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 97%;
+    background-position-x: 651px;
+    background-position-y: top;
+    margin-bottom: 397px;
+   }
+
+   .hero-text-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+   }
+
+   /**** header sectiom ****/
+
+
+
+   /**** hero sectiom ****/
+
+   .pricing-section {
+    width: 1440px;
+    background-image: url('/public/assets/home/bg-pattern-footer.svg');
+    height: 728px;
+    background-position-x: -164px;
+    background-position-y: 38px;
+    background-size: 876px;
+   }
+
+   .pricing-cards {
+    position: relative;
+     bottom: 293px;
+     height: 641px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     gap: 32px;
+   }
+
+   /*** tier-card-1 ***/
+
+   .tier-card {
+    width: 309px;
+   }
+
+   .card-body-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+   }
+
+   .card-plan-text {
+    text-align: center;
+   }
+
+   .card-plan-text > h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 8px;
+   }
+
+   .card-plan-text > p {
+    margin-bottom: 8px;
+   }
+
+   .card-text-content > p {
+    margin-top: 0;
+   }
+
+   /*** tier-card-1 ***/
+
+
+
+   /*** tier-card-2 ***/
+
+   .tier-card-1 {
+    width: 309px;
+    background-image: none;
+   }
+
+   .card-body-content-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+   }
+
+   .card-plan-text-1 {
+    text-align: center;
+   }
+
+   .card-plan-text-1 > h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 8px;
+   }
+
+   .card-text-content-1 {
+    text-align: center;
+   }
+
+   /*** tier-card-2 ***/
+
+
+
+
+   /*** tier-card-3 ***/
+
+   .tier-card-2 {
+    width: 309px;
+   }
+
+   .card-body-content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+   }
+
+   .card-plan-text-2 {
+    text-align: center;
+   }
+
+   .card-plan-text-2 > h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 8px;
+   }
+
+   .card-plan-text-2 > p {
+    margin-bottom: 8px
+   }
+
+    /*** tier-card-3 ***/
+
+
+
+    /***** countdown-section *****/
+
+    .countdown-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 88%;
+    }
+
+    .countdown-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      flex-direction: row;
+      width: 50%;
+    }
+
+    .timer-card {
+      padding: 16px 12px;
+      width: 85px;
+    }
+
+
+
+   
+
+
+}
+
 
 
