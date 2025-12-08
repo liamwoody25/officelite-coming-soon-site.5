@@ -705,6 +705,10 @@ header {
     width: 50%;
    }
 
+   .hero-text-content > h1 {
+    margin-bottom: 10px;
+   }
+
    /**** header sectiom ****/
 
 
