@@ -649,7 +649,7 @@ header {
   .pricing-btn,
   .pricing-btn-2,
   .pricing-btn-1  {
-    width: 30%;
+    width: 35%;
   }
 
   .countdown-btn {
@@ -737,7 +737,7 @@ header {
    /*** tier-card-1 ***/
 
    .tier-card {
-    width: 309px;
+    width: 263px;
    }
 
    .card-body-content {
@@ -772,7 +772,7 @@ header {
    /*** tier-card-2 ***/
 
    .tier-card-1 {
-    width: 309px;
+    width: 286px;
     background-image: none;
    }
 
@@ -805,7 +805,7 @@ header {
    /*** tier-card-3 ***/
 
    .tier-card-2 {
-    width: 309px;
+    width: 277px;
    }
 
    .card-body-content-2 {
@@ -839,7 +839,7 @@ header {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 88%;
+      width: 82%;
     }
 
     .countdown-container {
