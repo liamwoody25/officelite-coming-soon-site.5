@@ -184,7 +184,7 @@ header {
 .pricing-section {
   background-color: #25293A;
   height: 1217px;
-  background-image: url('/public/assets/home/bg-pattern-footer.svg');
+  background-image: url('./public/assets/home/bg-pattern-footer.svg');
   background-size: 607px;
   background-position-x: center;
   background-position-y: bottom;
