@@ -1,0 +1,107 @@
+
+/**** typeography ****/
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #747b95;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+
+/**** components ****/
+
+span {
+  color: #5175ff;
+}
+
+/**** body ****/
+
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 92%;
+}
+
+body {
+  margin: 0;
+  background-color: #FAFAFA;
+}
+
+/**** body ****/
+
+
+
+/**** header section ****/
+
+header {
+  margin: 32px 0px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+/**** header section ****/
+
+
+
+
+/**** left content section ****/
+
+.left-content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countdown-container {
+  margin-top: 40px;
+}
+
+.countdown-container > p {
+  font-size: 16px;
+  color: #333950;
+  font-weight: 700;
+  line-height: 25.6px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.countdown-timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.timer-card {
+  width: 47px;
+  background-color: #E4EAFF;
+  padding: 16px 12px;
+  border-radius: 8px;
+}
+
+.timer-card > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5175ff;
+}
+
+.timer-card > p {
+  font-weight: 700;
+  color: #333950;
+  margin: 0;
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+/**** left content section ****/
