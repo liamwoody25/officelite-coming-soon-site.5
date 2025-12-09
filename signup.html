@@ -63,7 +63,52 @@
 
   <!----- form section ----->
   <section class="form-section">
-    
+    <div class="form-container">
+      <form>
+        <label>Name</label>
+        <input type="text" id="name-input">
+
+        <div class="message-container">
+          <label>Email Address</label>
+          <span class="error-message">not formatted correctly</span>
+          <input type="text" id="email-input">
+        </div>
+
+        <!----- select package ----->
+        <div class="package-container">
+          <div class="package-info">
+            <label class="package-title">Basic Pack</label>
+            <span class="sub-title">Free</span>
+          </div>
+
+          <button type="button" class="package-toggle">
+            <img class="arrow-down-icon" src="./public/assets/sign-up/icon-arrow-down.svg" alt="arrow-down-icon">
+          </button>
+
+          <div class="package-menu">
+            <div class="package-text">
+              <label class="package-title">Pro Pack</label>
+              <span class="sub-title">$9.99</span>
+            </div>
+
+            <div class="package-sub">
+              <label class="package-title">Ultimate Pack</label>
+              <span class="sub-title">$19.99</span>
+            </div>
+          </div>
+          <!----- package options ----->
+        </div>
+      <!----- select package ----->
+
+      <label>Phone Number</label>
+      <input type="text" id="number-input">
+
+      <label>Company</label>
+      <input type="text" id="company-input">
+
+      <button type="button" class="form-btn">Get on the list</button>
+      </form>
+    </div>
   </section>
 </body>
 </html>

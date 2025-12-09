@@ -18,12 +18,80 @@ p {
   text-align: center;
 }
 
+/**** typeography ****/
+
+
+
+
 
 /**** components ****/
+
+label {
+  font-size: 16px;
+  color: #747b95;
+  opacity: 0.5;
+  padding-left: 15px;
+}
+
+.package-title {
+  color: #333950;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #747b95;
+  width: 98%;
+  margin-bottom: 24px;
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+}
 
 span {
   color: #5175ff;
 }
+
+.package-toggle {
+  display: flex;
+  border: none;
+  background-color: transparent;
+}
+
+.sub-title {
+  color: #333950;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.error-message {
+  font-size: 12px;
+  color: #747b95;
+  display: none;
+}
+
+.form-btn {
+  padding: 12px 40px;
+  background-color: #5175ff;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: #fff;
+  line-height: 25.6px;
+  width: 99%;
+}
+
+
+/**** components ****/
+
+
+
+
+
+
 
 /**** body ****/
 
@@ -42,6 +110,8 @@ body {
 
 
 
+
+
 /**** header section ****/
 
 header {
@@ -51,6 +121,8 @@ header {
 }
 
 /**** header section ****/
+
+
 
 
 
@@ -65,6 +137,7 @@ header {
 
 .countdown-container {
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .countdown-container > p {
@@ -105,3 +178,219 @@ header {
 }
 
 /**** left content section ****/
+
+
+
+
+/**** form section ****/
+
+.form-section {
+  background-color: #25293A;
+  height: 316px;
+  background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+  background-size: 246px;
+  background-position-x: center;
+  margin-top: 252px;
+  background-position-y: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  position: relative;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 75%;
+  box-shadow: 0 50px 50px -25px #4b5c9a29;
+  bottom: 242px;
+}
+
+.message-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.package-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid #747b95;
+  padding: 0 0 24px;
+  margin: 0 0 24px;
+  opacity: 0.5;
+}
+
+.package-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.package-menu {
+  display: none;
+  margin-top: 5px;
+}
+
+.package-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.package-sub {
+  display: flex;
+  gap: 10px;
+}
+
+
+/**** form section ****/
+
+
+
+
+
+/**** media queries tablet ****/
+
+@media screen and (min-width:768px) {
+  
+  /**** body ****/
+
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 90%;
+  }
+
+  /**** body ****/
+
+  
+
+  /**** header section ****/
+
+  header {
+    display: flex;
+    justify-content: left;
+    margin-top: 64px;
+  }
+
+  /**** header section ****/
+
+
+
+
+  /**** left content section ****/
+
+  .left-content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 76%;
+  }
+
+  .countdown-container {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .countdown-timer {
+    display: flex;
+    width: 80%;
+  }
+
+  .timer-card {
+    width: 12%;
+  }
+
+  /**** left content section ****/
+
+
+
+
+  /**** form section ****/
+
+  .form-section {
+    margin-top: 141px;
+    height: 473px;
+    background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+
+
+  .form-container {
+    position: relative;
+    bottom: 126px;
+    padding: 40px;
+    width: 40%;
+  }
+
+  .package-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .package-sub {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /**** form section ****/
+}
+
+/**** media queries tablet ****/
+
+
+/**** media queries desktop ****/
+
+@media screen and (min-width:1440px) {
+
+  /**** body ****/
+  
+  .container {
+    margin-left: 108px;
+    margin-right: 108px;
+    width: 85%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /**** body ****/
+
+
+  
+  /**** header section ****/
+
+  header {
+    margin-top: 80px;
+  }
+
+  /**** header section ****/
+
+
+
+  /**** left-content section ****/
+
+  .left-content-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+  }
+}
+
