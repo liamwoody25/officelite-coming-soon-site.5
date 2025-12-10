@@ -371,6 +371,7 @@ header {
     margin-left: 108px;
     margin-right: 108px;
     width: 85%;
+    max-width: 1440px;
   }
 
   body {
