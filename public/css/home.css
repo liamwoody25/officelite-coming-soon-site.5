@@ -662,6 +662,7 @@ header {
     margin-left: 125px;
     margin-right: 125px;
     width: 83%;
+    max-width: 1440px;
   }
 
   body {
