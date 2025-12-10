@@ -357,6 +357,14 @@ header {
 
 @media screen and (min-width:1440px) {
 
+  /**** typography ****/
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+  }
+
   /**** body ****/
   
   .container {
@@ -389,8 +397,64 @@ header {
   .left-content-section {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: left;
+  }
+
+  .left-content {
+    width: 73%;
+  }
+
+  .left-content > p {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .left-content > h1 {
+    text-align: left;
+  }
+
+  
+  /**** countdown section ****/
+
+  .countdown-container {
+    display: flex;
+    justify-content: left;
+  }
+
+  .countdown-container .countdown-timer {
+    justify-content: left;
+  }
+
+  .timer-card {
+    width: 15%;
+  }
+
+  /**** countdown section ****/
+
+
+  /**** left-content section ****/
+
+
+
+  /**** form section ****/
+
+  .form-section {
+    display: flex;
+    height: 1024px;
+    margin: 0;
+    background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+    background-size: 1421px;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+
+  .form-container {
+    position: relative;
+    width: 80%;
+    padding: 40px;
+    height: 409px;
+    top: 191px;
+    right: 148px;
   }
 }
 
