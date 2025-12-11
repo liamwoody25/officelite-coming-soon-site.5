@@ -43,7 +43,7 @@ label {
 input {
   border: none;
   border-bottom: 1px solid #747b95;
-  width: 91%;
+  width: 95%;
   margin-bottom: 24px;
   opacity: 0.5;
   cursor: pointer;
@@ -440,7 +440,7 @@ header {
   }
 
   .timer-card {
-    width: 8%;
+    width: 12%;
   }
 
   /**** countdown section ****/
