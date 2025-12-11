@@ -43,11 +43,13 @@ label {
 input {
   border: none;
   border-bottom: 1px solid #747b95;
-  width: 98%;
+  width: 95%;
   margin-bottom: 24px;
   opacity: 0.5;
   cursor: pointer;
   outline: none;
+  font-size: 14px;
+  padding-left: 15px;
 }
 
 span {
@@ -202,7 +204,7 @@ header {
   padding: 40px 20px;
   background-color: #fff;
   border-radius: 12px;
-  width: 75%;
+  width: 66%;
   box-shadow: 0 50px 50px -25px #4b5c9a29;
   bottom: 242px;
 }
@@ -257,6 +259,12 @@ header {
 /**** media queries tablet ****/
 
 @media screen and (min-width:768px) {
+
+  /**** typeography ****/
+
+  h1 {
+    margin-bottom: 0;
+  }
   
   /**** body ****/
 
@@ -382,6 +390,8 @@ header {
   /**** body ****/
 
 
+
+
   
   /**** header section ****/
 
@@ -393,29 +403,32 @@ header {
 
 
 
+
+
   /**** left-content section ****/
 
   .left-content-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    flex-direction: column;
   }
 
   .left-content {
-    width: 73%;
+    width: 71%;
   }
 
-  .left-content > p {
+  .left-content  p {
     text-align: left;
     font-size: 18px;
   }
 
-  .left-content > h1 {
+  .left-content  h1 {
     text-align: left;
   }
 
-  
   /**** countdown section ****/
+
 
   .countdown-container {
     display: flex;
@@ -427,10 +440,12 @@ header {
   }
 
   .timer-card {
-    width: 15%;
+    width: 8%;
   }
 
   /**** countdown section ****/
+
+
 
 
   /**** left-content section ****/
@@ -451,7 +466,7 @@ header {
 
   .form-container {
     position: relative;
-    width: 80%;
+    width: 66%;
     padding: 40px;
     height: 409px;
     top: 191px;
