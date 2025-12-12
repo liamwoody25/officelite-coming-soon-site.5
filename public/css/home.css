@@ -661,8 +661,8 @@ header {
   .container {
     margin-left: 125px;
     margin-right: 125px;
-    width: 83%;
-    max-width: 1440px;
+    width: 84%;
+    max-width: 2560px;
   }
 
   body {
@@ -670,6 +670,9 @@ header {
     background-position-x: 826px;
     background-size: 983px;
     background-position-y: -346px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   /**** body ****/
