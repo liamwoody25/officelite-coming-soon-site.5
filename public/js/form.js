@@ -21,6 +21,7 @@ function invalidEmail(){
   if (userEmail.value !== '') {
     userEmail.style.borderBottom = '2px solid #e74c3c'
     incorrectMessage.style.display = 'block'
+    userEmail.value = ''
   }
 }
 
